@@ -2,7 +2,7 @@
    En el proyecto real corre en un servidor del local (PHP + MySQL) y sigue
    funcionando sin internet; acá todo se simula en el navegador con localStorage. */
 
-const CASO_URL = "https://varyon.com.ar/";   // cambiar por la URL del caso de estudio
+const CASO_URL = "https://varyon.com.ar/proyectos/comandera"; // caso de estudio en la web de Varyon
 const KEY = "ribera-demo-v1";
 const KEY_UI = "ribera-demo-ui";
 
