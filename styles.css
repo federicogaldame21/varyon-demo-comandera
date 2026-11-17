@@ -336,3 +336,10 @@ input.mini.wide { width: 88px; }
   .demobar { gap: 8px; padding: 8px 10px; }
   .demobar .hide-sm { display: none; }
 }
+
+/* ---------- Ajuste móvil: nada se desborda del ancho de pantalla ---------- */
+.web > *, .web-main, .sidebar { min-width: 0; }
+@media (max-width: 860px) {
+  .web { grid-template-columns: minmax(0, 1fr); }
+  .sidebar nav { max-width: 100%; -webkit-overflow-scrolling: touch; }
+}
